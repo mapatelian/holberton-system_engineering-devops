@@ -1,0 +1,1 @@
+This project is to help students learn how to work with permissions 
