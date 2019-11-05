@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# script that displays every minute from 00:00 to 12:59
+i="0"
+while [ $i -lt 13 ]; do
+	echo "Hour: " $i
+	k="1"
+	while [ $k -lt 60 ]; do
+		echo $k
+		k=$((k+1))
+	done
+	i=$((i+1))
+done
