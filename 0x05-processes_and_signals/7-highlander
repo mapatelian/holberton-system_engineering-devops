@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# traps SIGTERM and prints a message 
+trap "echo I am invincible!!!" SIGTERM
+i="0"
+while [ $i ]; do echo 'To infinity and beyond' & i=$((i+1)) & sleep 2; done
