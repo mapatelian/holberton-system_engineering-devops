@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that displays content of a current directory
+for line in *; do echo "$line" | cut -d '-' -f2;
+done
